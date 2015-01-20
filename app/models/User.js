@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-    Schema = mongoose.Schema;
+var Schema = mongoose.Schema;
 
 var ImageSchema = require("./Image");
 var TokenSchema = require("./Token");

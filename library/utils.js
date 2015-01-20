@@ -1,6 +1,6 @@
-var mongoose = require('mongoose'),
-    User = mongoose.model('User'),
-    md5 = require('MD5');
+var mongoose = require('mongoose');
+var User = mongoose.model('User');
+var md5 = require('MD5');
 
 module.exports = {
     secure : function(req, res, next) {
